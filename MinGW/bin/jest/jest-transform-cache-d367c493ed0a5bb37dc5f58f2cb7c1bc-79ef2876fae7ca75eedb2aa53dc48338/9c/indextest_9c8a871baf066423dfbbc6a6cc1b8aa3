@@ -1,0 +1,8 @@
+852e4021dbff55ecedf88d416e06f867
+import { sayHello } from '../src/index';
+describe('sayHello', () => {
+  it('should return a greeting message with the name', () => {
+    expect(sayHello('saidi')).toBe('Hello, saidi!');
+  });
+});
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJzYXlIZWxsbyIsImRlc2NyaWJlIiwiaXQiLCJleHBlY3QiLCJ0b0JlIl0sInNvdXJjZXMiOlsiaW5kZXgudGVzdC50cyJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBzYXlIZWxsbyB9IGZyb20gJy4uL3NyYy9pbmRleCc7XHJcblxyXG5kZXNjcmliZSgnc2F5SGVsbG8nLCAoKSA9PiB7XHJcbiAgICBpdCgnc2hvdWxkIHJldHVybiBhIGdyZWV0aW5nIG1lc3NhZ2Ugd2l0aCB0aGUgbmFtZScsICgpID0+IHtcclxuICAgICAgICBleHBlY3Qoc2F5SGVsbG8oJ3NhaWRpJykpLnRvQmUoJ0hlbGxvLCBzYWlkaSEnKTtcclxuICAgIH0pO1xyXG59KTtcclxuIl0sIm1hcHBpbmdzIjoiQUFBQSxTQUFTQSxRQUFRLFFBQVEsY0FBYztBQUV2Q0MsUUFBUSxDQUFDLFVBQVUsRUFBRSxNQUFNO0VBQ3ZCQyxFQUFFLENBQUMsZ0RBQWdELEVBQUUsTUFBTTtJQUN2REMsTUFBTSxDQUFDSCxRQUFRLENBQUMsT0FBTyxDQUFDLENBQUMsQ0FBQ0ksSUFBSSxDQUFDLGVBQWUsQ0FBQztFQUNuRCxDQUFDLENBQUM7QUFDTixDQUFDLENBQUMiLCJpZ25vcmVMaXN0IjpbXX0=

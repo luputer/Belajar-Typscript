@@ -1,0 +1,8 @@
+64f30afb428366394c14e631e34214ec
+import { sayHello } from "../src/index";
+describe('sayHello', function () {
+  it('should return ', function () {
+    expect(sayHello('saidi')).toBe('hello saidi');
+  });
+});
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJzYXlIZWxsbyIsImRlc2NyaWJlIiwiaXQiLCJleHBlY3QiLCJ0b0JlIl0sInNvdXJjZXMiOlsiaW5kZXgudGVzdC50cyJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBzYXlIZWxsbyB9IGZyb20gXCIuLi9zcmMvaW5kZXhcIlxyXG5cclxuZGVzY3JpYmUoJ3NheUhlbGxvJywgZnVuY3Rpb24oKSB7XHJcbiAgICBpdCgnc2hvdWxkIHJldHVybiAnLCBmdW5jdGlvbigpIHtcclxuICAgICAgICBleHBlY3Qoc2F5SGVsbG8oJ3NhaWRpJykpLnRvQmUoJ2hlbGxvIHNhaWRpJylcclxuICAgIH0pXHJcbn0pIl0sIm1hcHBpbmdzIjoiQUFBQSxTQUFTQSxRQUFRLFFBQVEsY0FBYztBQUV2Q0MsUUFBUSxDQUFDLFVBQVUsRUFBRSxZQUFXO0VBQzVCQyxFQUFFLENBQUMsZ0JBQWdCLEVBQUUsWUFBVztJQUM1QkMsTUFBTSxDQUFDSCxRQUFRLENBQUMsT0FBTyxDQUFDLENBQUMsQ0FBQ0ksSUFBSSxDQUFDLGFBQWEsQ0FBQztFQUNqRCxDQUFDLENBQUM7QUFDTixDQUFDLENBQUMiLCJpZ25vcmVMaXN0IjpbXX0=

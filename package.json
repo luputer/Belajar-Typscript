@@ -1,0 +1,22 @@
+{
+  "name": "belajar-typscript-dasar",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/jest": "^29.5.14",
+    "jest": "^29.7.0",
+    "nodemon": "^2.0.15",
+    "ts-jest": "^29.2.5",
+    "typescript": "^5.0.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "bun dist/index.js",
+    "dev": "nodemon --exec \"tsc && bun dist/Function.js\"",
+    "test": "jest"
+  }
+}

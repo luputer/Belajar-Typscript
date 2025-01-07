@@ -1,0 +1,10 @@
+6fe239d3de9f258474571a2ce453f4ab
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const index_1 = require("../src/index");
+describe('sayHello', () => {
+    it('should return a greeting message with the name', () => {
+        expect((0, index_1.sayHello)('saidi')).toBe('Hello, saidi!');
+    });
+});
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJmaWxlIjoiQzpcXFVzZXJzXFxTYWlkaVxcT25lRHJpdmVcXERlc2t0b3BcXFRZUFNDUklQVFxcYmVsYWphci10eXBzY3JpcHQtZGFzYXJcXHRlc3RzXFxpbmRleC50ZXN0LnRzIiwibWFwcGluZ3MiOiI7O0FBQUEsd0NBQXdDO0FBRXhDLFFBQVEsQ0FBQyxVQUFVLEVBQUUsR0FBRyxFQUFFO0lBQ3RCLEVBQUUsQ0FBQyxnREFBZ0QsRUFBRSxHQUFHLEVBQUU7UUFDdEQsTUFBTSxDQUFDLElBQUEsZ0JBQVEsRUFBQyxPQUFPLENBQUMsQ0FBQyxDQUFDLElBQUksQ0FBQyxlQUFlLENBQUMsQ0FBQztJQUNwRCxDQUFDLENBQUMsQ0FBQztBQUNQLENBQUMsQ0FBQyxDQUFDIiwibmFtZXMiOltdLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcU2FpZGlcXE9uZURyaXZlXFxEZXNrdG9wXFxUWVBTQ1JJUFRcXGJlbGFqYXItdHlwc2NyaXB0LWRhc2FyXFx0ZXN0c1xcaW5kZXgudGVzdC50cyJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBzYXlIZWxsbyB9IGZyb20gJy4uL3NyYy9pbmRleCc7XHJcblxyXG5kZXNjcmliZSgnc2F5SGVsbG8nLCAoKSA9PiB7XHJcbiAgICBpdCgnc2hvdWxkIHJldHVybiBhIGdyZWV0aW5nIG1lc3NhZ2Ugd2l0aCB0aGUgbmFtZScsICgpID0+IHtcclxuICAgICAgICBleHBlY3Qoc2F5SGVsbG8oJ3NhaWRpJykpLnRvQmUoJ0hlbGxvLCBzYWlkaSEnKTtcclxuICAgIH0pO1xyXG59KTtcclxuIl0sInZlcnNpb24iOjN9
