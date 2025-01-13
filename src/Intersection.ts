@@ -17,7 +17,7 @@ type Person = {
 }
 
 
-const mahasiswa : Person =  {
+const mahasiswa: Person = {
     id: 1,
     details: {
         name: "John Doe",
@@ -27,18 +27,18 @@ const mahasiswa : Person =  {
 }
 
 
-const dosen : Person = {
+const dosen: Person = {
     id: "D001",
     details: {
         name: "Dr. John Doe",
         age: "45"
     },
-   
+
 }
 
 const Orang: any = {
-    name : "Muhamamd Saingdi",
-    age : 20,
+    name: "Muhamamd Saingdi",
+    age: 20,
 }
 
 

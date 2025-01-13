@@ -26,8 +26,5 @@ orang.umur = "32 tahun"
 console.info({orang})
 
 
-
-
-
 person.name = 19
 console.log(person)

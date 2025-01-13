@@ -16,7 +16,7 @@
   "scripts": {
     "build": "tsc",
     "start": "bun dist/index.js",
-    "dev": "nodemon --exec \"tsc && bun dist/Function.js\"",
+    "dev": "nodemon --exec \"tsc && bun dist/NameSpace.js\"",
     "test": "jest"
   }
 }
