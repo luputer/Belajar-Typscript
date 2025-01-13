@@ -49,3 +49,5 @@ console.info(dosen)
 
 
 console.info(mahasiswa)
+
+

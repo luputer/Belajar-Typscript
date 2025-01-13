@@ -1,5 +1,4 @@
-
-
+// super class AYAH
 class Animal {
     constructor(protected name: string){
     }
@@ -9,6 +8,7 @@ class Animal {
     }
 }
 
+// inheretence dari Animal
 class Dog extends Animal{
     constructor(name: string){
         super(name)
@@ -18,6 +18,7 @@ class Dog extends Animal{
     }
 }
 
+// inheretence dari Animal
 class Cat extends Animal {
     constructor(name: string){
         super(name)
@@ -30,6 +31,7 @@ class Cat extends Animal {
 function crateaSound(animal: Animal): void{
     animal.makeSound()
 }
+
 
 const myDog = new Dog("Rex");
 const myCat = new Cat("Whsikers");

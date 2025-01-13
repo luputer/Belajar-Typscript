@@ -36,7 +36,6 @@ class Person implements HasName, biodata, CanSayHello {
 
 
 
-
 const orang = new Person('saidi', 20, 170, 52)
 orang.sayHello('aldi')
 console.info(orang)
